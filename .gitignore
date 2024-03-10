@@ -6,3 +6,10 @@ pxt_modules
 projects
 *.db
 *.tgz
+.pxt/mkc-cache/c-gh-pkg-microsoft_47_pxt-ws2812b_35_v0.1.1
+.pxt/mkc-cache/https_58__47__47_makecode.microbit.org_47_beta-info
+.pxt/mkc-cache/https_58__47__47_makecode.microbit.org_47_beta-pxtsim.js
+.pxt/mkc-cache/https_58__47__47_makecode.microbit.org_47_beta-pxtworker.js
+.pxt/mkc-cache/https_58__47__47_makecode.microbit.org_47_beta-sim.html
+.pxt/mkc-cache/https_58__47__47_makecode.microbit.org_47_beta-sim.js
+.pxt/mkc-cache/https_58__47__47_makecode.microbit.org_47_beta-target.json

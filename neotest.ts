@@ -1,5 +1,5 @@
 {
-    let strip = neopixel.create(DigitalPin.P0, 24, NeoPixelMode.RGB);
+    let strip = neopixelXX.create(DigitalPin.P0, 24, NeoPixelMode.RGB);
     strip.setPixelColor(0, 0xff0000)
     strip.setPixelColor(1, 0x00ff00)
     strip.setPixelColor(2, 0x0000ff)
@@ -17,12 +17,12 @@
     strip.showColor(NeoPixelColors.Green)
     basic.pause(1000)
     for (let i = 0; i <= strip.length(); i++) {
-        strip.setPixelColor(i, neopixel.colors(NeoPixelColors.Blue))
+        strip.setPixelColor(i, neopixelXX.colors(NeoPixelColors.Blue))
         strip.show()
         basic.pause(100)
     }
     for (let i = 0; i <= strip.length(); i++) {
-        strip.setPixelColor(i, neopixel.colors(NeoPixelColors.Green))
+        strip.setPixelColor(i, neopixelXX.colors(NeoPixelColors.Green))
         strip.show()
         basic.pause(100)
     }
@@ -73,7 +73,7 @@
         if (rotationMode) {
             strip.rotate();
         } else {
-            strip.setPixelColor(0, neopixel.rgb(x, y, -z));
+            strip.setPixelColor(0, neopixelXX.rgb(x, y, -z));
             strip.shift(1);
         }
         strip.show();
